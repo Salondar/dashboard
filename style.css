@@ -36,10 +36,16 @@ aside {
     grid-row: 1 /  5;
     grid-column: 1 / 2;
     padding: 1em;
+    background-color: #16537e;
+    color: white;
 }
 
 ul {
     list-style-type: none;
+}
+
+a {
+    color: white;
 }
 
 a {
