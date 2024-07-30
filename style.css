@@ -72,14 +72,24 @@ header {
     grid-template-columns: 3fr 1fr 1fr 1fr;
 }
 
-.userinfo {
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
 }
 
-.buttons {
+.userinfo {
+    grid-column: 1 / 2;
+}
+.new-button {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+}
+
+.upload-button {
+    grid-column: 3 / 4;
+}
+
+.share-button {
+    grid-column: 4 / 5;
 }
 
 main {
