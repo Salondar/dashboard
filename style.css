@@ -41,13 +41,21 @@ aside {
     color: white;
 }
 
-ul {
+.brand li {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li {
     list-style-type: none;
+    font-size: larger;
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .navigation {
@@ -183,5 +191,4 @@ main {
     display: grid;
     grid-template-rows: repeat(4, 42px);
     gap: 20px;
-
 }
