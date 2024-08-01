@@ -30,6 +30,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 6fr;
     grid-template-columns: 1.5fr 5.8fr;
+    font-family: "Roboto";
 }
 
 aside {
