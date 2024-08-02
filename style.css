@@ -97,11 +97,13 @@ input {
     height: 28px;
     border-radius: 25px;
     border: 2px solid black;
+    background-color:  #EEEEEE;
 }
 
 .icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .username {
@@ -120,7 +122,8 @@ input {
 
 .buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .new-button,
@@ -164,7 +167,16 @@ main {
     background-color: white;
     padding: 20px;
     font-size: 17px;
+    display: grid;
+    grid-template-rows: 0.5fr 3fr 1fr;
 }
+
+.project-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
 
 .announcements{
     grid-row: 1 / 4;
