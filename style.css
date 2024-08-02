@@ -29,7 +29,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 6fr;
-    grid-template-columns: 1.5fr 5.8fr;
+    grid-template-columns: 1.5fr 5.5fr;
     font-family: "Roboto";
 }
 
@@ -44,14 +44,22 @@ aside {
 
 .navigation {
     display: grid;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 100px 300px 100px;
     grid-template-columns: 1fr;
-    gap: 25px;
 }
 
 .brand, .nav-container {
     display: flex;
-    gap: 15px;
+    gap: 18px;
+}
+
+.nav-container {
+    margin-bottom: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .text {
@@ -157,8 +165,6 @@ main {
     padding: 20px;
     font-size: 17px;
 }
-
-
 
 .announcements{
     grid-row: 1 / 4;
